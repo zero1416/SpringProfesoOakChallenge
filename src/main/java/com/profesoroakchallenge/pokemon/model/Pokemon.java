@@ -16,11 +16,11 @@ public class Pokemon {
 	@Id
 	@GeneratedValue(generator="system-uuid")
 	@GenericGenerator(name="system-uuid", strategy="uuid2")
-	private String idPokemon;
-	private String namePokemon;
-	private String typePokemon;
-	private String routePokemon;
-	private String numerPokemon;
+	private String id;
+	private String name;
+	private String type;
+	private String route;
+	private String number;
 	
 	public Pokemon() {
 		
